@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+ <head>
+ <title>Admin Only Page</title>
+ </head>
+ <body>
+     <h1 style="color: green">This is the Admin Only Page </h1>
+     <a style="color:blue" th:href="@{/welcome}">Go Welcome Page</a>
+     <div th:if="${param.adminpage}">
+         <h1 style="color:blue">Logged out.</h1>
+     </div>
+ </body>
+</html>

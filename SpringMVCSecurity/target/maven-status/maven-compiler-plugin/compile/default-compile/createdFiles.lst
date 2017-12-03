@@ -1,0 +1,3 @@
+com/javasampleapproach/websecurity/controller/WebController.class
+com/javasampleapproach/websecurity/SpringMvcSecurityApplication.class
+com/javasampleapproach/websecurity/security/SecurityConfig.class
